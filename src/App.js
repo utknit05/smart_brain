@@ -13,7 +13,7 @@ import './App.css';
 // const nodemailer = require('nodemailer');
 
 const app = new Clarifai.App({
- apiKey: 'b116cae23fc7465ca6c41b268ac14f2d'
+ apiKey: '<Your Key>'
 });
 
 const particleParameters = {

@@ -34,7 +34,8 @@ class Signin extends React.Component {
     	   this.props.loadUser(user);
            this.props.onRouteChange('Home');
     	}else alert('Incorrect Email or Password');
-    });
+    })
+    .catch(() => alert('enter valid details'));
  }    
 
  render(){
